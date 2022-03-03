@@ -1,0 +1,39 @@
+.App {
+    max-height: 100vh;
+    height: 110vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.App-content {
+    color: aliceblue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 120px;
+    padding-top: 0px;
+}
+
+@media (min-width: 250px ) {
+    .App {
+        background-position: center center;
+    }
+
+    .App-content {
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
+
+.about1 {
+    font-size: 56pt;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.about2 {
+    font-size: 24pt;
+}
